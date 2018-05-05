@@ -1,2 +1,5 @@
 # IntelliJ IDEA project-specfic folder
 .idea/
+
+# Java compiled .class files
+out/
