@@ -4,8 +4,11 @@
 #include <unistd.h>
 #include <sys/types.h>
 
-int main(int argc, char **argv){ 
-	// Access auth file in ../../../problems/ec9da1496f80c8248197ba564097cebb
+/**
+This problem can be easily solved by executing the C program below at a self-defined path.
+*/ 
+int main(int argc, char **argv) { 
+	// Access auth file in ../../problems/ec9da1496f80c8248197ba564097cebb
 	FILE* authf = fopen("../../problems/ec9da1496f80c8248197ba564097cebb/auth","r");
 
 	if (authf == NULL) {
